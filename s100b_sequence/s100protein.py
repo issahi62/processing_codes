@@ -13,8 +13,20 @@ for line in gene:
 for char in line:
           if char == "a":
                   a=a+1
-          if char == "t":
+          elif char == "t":
           	 t=t+1
-          	 if ch
+          elif char =='g':
+            g=g+1
+          elif char =='c': 
+            c=c+1 
+          else: 
+           print('no_files'); 
+k = a+t/ a+t+c+g; 
+b = c+g/a+t+c+g;
+
+print('the name of the a+t': k); 
+print('sum of c+g': b); 
+          
+         
 
    
